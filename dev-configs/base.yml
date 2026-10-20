@@ -1,0 +1,90 @@
+# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+matches:
+  # Print the current date
+  - trigger: ":date"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%m/%d/%Y"
+
+  # Personal info
+  - trigger: ":name"
+    replace: "Mahbubur Rahman"
+
+  - trigger: ":id"
+    replace: "011221441"
+
+  - trigger: ":uiu"
+    replace: "United International University"
+
+  - trigger: ":gp"
+    replace: "01744177620"
+
+  - trigger: ":tt"
+    replace: "01511177620"
+
+  # email
+  - trigger: ":vm"
+    replace: "mrahman221441@bscse.uiu.ac.bd"
+
+  - trigger: ":om"
+    replace: "mrahman221441@gmail.com"
+
+  - trigger: ":mm"
+    replace: "mrahman623a@gmail.com"
+
+  - trigger: ":um"
+    replace: "maahbub620@gmail.com"
+
+  # Handle
+  - trigger: ":cf"
+    replace: "TribalLiege"
+
+  - trigger: ":cp"
+    replace: "mahbub620"
+
+  # Random
+  - trigger: ":meet"
+    replace: "https://meet.google.com/bfm-wfba-zor"
+  - trigger: ":download"
+    replace: "yt-dlp -f bestaudio -x --audio-format mp3 "
+
+  # coding
+  - trigger: ",run"
+    replace: 'g++ -std=c++23 -DLOCAL $|$; .\a.exe'
+
+  - trigger: ":nrd"
+    replace: "npm run dev"
+
+  - trigger: ":nes"
+    replace: "npx expo start"
+
+  # emoji
+  - trigger: ";l"
+    replace: "😂😂"
+  - trigger: ";c"
+    replace: "🥹🥹"
+  - trigger: ";C"
+    replace: "🙂🙂"
+  - trigger: ";s"
+    replace: "😔😔"
+  - trigger: ";h"
+    replace: "❤️❤️"
+  - trigger: ";b"
+    replace: "💔💔"
+  - trigger: ";k"
+    replace: "😘😘"
+  - trigger: ";K"
+    replace: "🦶🦶"
+  - trigger: ";y"
+    replace: "😋😋"
+  - trigger: ";t"
+    replace: "🤤🤤"
+  - trigger: ";p"
+    replace: "🙏🙏"
+  - trigger: ";Y"
+    replace: "🫵🫵"
+  - trigger: ";f"
+    replace: "🐸🐸"
